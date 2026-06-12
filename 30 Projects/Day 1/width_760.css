@@ -1,0 +1,76 @@
+@media (max-width: 768px) {
+
+  .nav-menu {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    background: black;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    display: none;
+    border-radius: 20px;
+  }
+body{
+    background: #F9F8F6;
+}
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .email {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+    color: white;
+  }
+
+   .nine h1 {
+  text-align:center; font-size:50px; text-transform:uppercase; color:#222; letter-spacing:1px;
+  font-family:"Playfair Display", serif; font-weight:200;
+  text-align: center;
+  background: #F9F8F6;
+  height: 470px; 
+  padding: 100px 40px;
+  border-radius: 10px;
+}
+.nine h1 span {
+  margin-top: 2.5px;
+    font: size 7.5em; color:#444; word-spacing:1px; font-weight:normal; letter-spacing:2px;
+    text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:250;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nine h1 span:after,.nine h1 span:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    height: 2.5px;
+  background-color:#F9F8F6;
+
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+  background: #EFE9E3;
+  height: 500px;
+
+}
+
+.about p{
+      font-family: "Lucida Handwriting", cursive;
+}
+}
