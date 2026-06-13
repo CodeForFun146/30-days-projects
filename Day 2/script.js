@@ -17,6 +17,13 @@ btn.addEventListener("click", () => {
     wrapper.appendChild(checkbox);
 
     check.appendChild(wrapper);
+
+    check.appendChild(document.createElement("br"));
+
+    if(checkbox.checked)
+    {
+        checkbox.style.color="green";
+    }
 });
 
 Dbtn.addEventListener("click", () => {

@@ -1,0 +1,24 @@
+body{
+    background-color: beige;
+    align-items: center;
+    align-content: center;
+    margin-top: 250px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+#btn, #Dbtn{
+    background-color: cadetblue;
+    border-radius: 40px;
+    font-size: 30px;
+}
+h1{
+    height: 40px;
+    width: auto;
+    background-color: chartreuse;
+   
+}
+#check{
+    margin-top: 50px;
+    
+}
