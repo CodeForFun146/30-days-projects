@@ -1,5 +1,5 @@
 git add . && git commit -m "Your commit message" && git push origin main
-git add . && git commit -m "Add Day 2 project files" && git push
-git add Day\ 2/
-git commit -m "Add Day 2 project files"
+git add . && git commit -m "Add Day 3 project files" && git push
+git add Day\ 3/
+git commit -m "Add Day 3 project files"
 git push origin main
